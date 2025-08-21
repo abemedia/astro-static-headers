@@ -1,0 +1,15 @@
+---
+Astro.response.headers.set('X-Frame-Options', 'DENY');
+Astro.response.headers.set('X-Content-Type-Options', 'nosniff');
+---
+
+<!doctype html>
+<html>
+  <head>
+    <title>New Page</title>
+  </head>
+  <body>
+    <h1>New Page</h1>
+    <p>You've been redirected here! This page has security headers.</p>
+  </body>
+</html>

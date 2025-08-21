@@ -1,0 +1,15 @@
+---
+Astro.response.headers.set('Server', 'Astro'); // Should not create headers for dynamic pages.
+export const prerender = false;
+---
+
+<!doctype html>
+<html>
+  <head>
+    <title>Dynamic Page</title>
+  </head>
+  <body>
+    <h1>Dynamic Page</h1>
+    <p>This page isn't prerendered and should not generate static headers.</p>
+  </body>
+</html>
