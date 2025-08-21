@@ -1,0 +1,4 @@
+---
+Astro.response.headers.set('Server', 'Astro'); // Should not create headers for redirects.
+return Astro.redirect('/new-page/', 307);
+---
