@@ -1,0 +1,19 @@
+---
+Astro.response.headers.set('Cache-Control', 'public, max-age=3600');
+---
+
+<!doctype html>
+<html>
+  <head>
+    <title>Test - Home</title>
+  </head>
+  <body>
+    <h1>Welcome to the Test Site</h1>
+    <p>This page sets cache headers.</p>
+    <nav>
+      <a href="/api">API</a>
+      <a href="/redirect-page">Redirect Test</a>
+      <a href="/dynamic">Dynamic Test</a>
+    </nav>
+  </body>
+</html>

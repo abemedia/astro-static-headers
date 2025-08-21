@@ -1,0 +1,15 @@
+{
+  "name": "test-cloudflare",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "astro build",
+    "dev": "astro dev"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.6.4",
+    "astro": "^5.13.2",
+    "astro-static-headers": "workspace:*"
+  }
+}
