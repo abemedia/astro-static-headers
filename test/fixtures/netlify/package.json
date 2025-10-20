@@ -8,7 +8,7 @@
     "dev": "astro dev"
   },
   "dependencies": {
-    "@astrojs/netlify": "^6.5.12",
+    "@astrojs/netlify": "^6.5.13",
     "astro": "^5.14.4",
     "astro-static-headers": "workspace:*"
   }
