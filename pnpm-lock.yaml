@@ -19,8 +19,8 @@ importers:
         specifier: ^20.3.0
         version: 20.19.22
       astro:
-        specifier: ^5.14.6
-        version: 5.14.6(@netlify/blobs@10.1.0)(@types/node@20.19.22)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
+        specifier: ^5.14.7
+        version: 5.14.7(@netlify/blobs@10.1.0)(@types/node@20.19.22)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -47,10 +47,10 @@ importers:
     dependencies:
       '@astrojs/cloudflare':
         specifier: ^12.6.10
-        version: 12.6.10(@types/node@24.8.1)(astro@5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(jiti@2.6.1)(yaml@2.8.1)
+        version: 12.6.10(@types/node@24.9.1)(astro@5.14.7(@netlify/blobs@10.1.0)(@types/node@24.9.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(jiti@2.6.1)(yaml@2.8.1)
       astro:
-        specifier: ^5.14.6
-        version: 5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
+        specifier: ^5.14.7
+        version: 5.14.7(@netlify/blobs@10.1.0)(@types/node@24.9.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
       astro-static-headers:
         specifier: workspace:*
         version: link:../../..
@@ -59,10 +59,10 @@ importers:
     dependencies:
       '@astrojs/netlify':
         specifier: ^6.5.13
-        version: 6.5.13(@types/node@24.8.1)(@vercel/functions@2.2.13)(astro@5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(jiti@2.6.1)(rollup@4.52.5)(yaml@2.8.1)
+        version: 6.5.13(@types/node@24.9.1)(@vercel/functions@2.2.13)(astro@5.14.7(@netlify/blobs@10.1.0)(@types/node@24.9.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(jiti@2.6.1)(rollup@4.52.5)(yaml@2.8.1)
       astro:
-        specifier: ^5.14.6
-        version: 5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
+        specifier: ^5.14.7
+        version: 5.14.7(@netlify/blobs@10.1.0)(@types/node@24.9.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
       astro-static-headers:
         specifier: workspace:*
         version: link:../../..
@@ -71,10 +71,10 @@ importers:
     dependencies:
       '@astrojs/vercel':
         specifier: ^8.2.10
-        version: 8.2.10(astro@5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(rollup@4.52.5)
+        version: 8.2.10(astro@5.14.7(@netlify/blobs@10.1.0)(@types/node@24.9.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(rollup@4.52.5)
       astro:
-        specifier: ^5.14.6
-        version: 5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
+        specifier: ^5.14.7
+        version: 5.14.7(@netlify/blobs@10.1.0)(@types/node@24.9.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
       astro-static-headers:
         specifier: workspace:*
         version: link:../../..
@@ -262,8 +262,8 @@ packages:
   '@emnapi/core@1.5.0':
     resolution: {integrity: sha512-sbP8GzB1WDzacS8fgNPpHlp6C9VZe+SJP3F90W9rLemaQj2PzIuTEl1qDOYQf58YIpyjViI24y9aPWCjEzY2cg==}
 
-  '@emnapi/runtime@1.5.0':
-    resolution: {integrity: sha512-97/BJ3iXHww3djw6hYIfErCZFee7qCtrneuLa20UXFCOTCfBM2cvQHjWJ2EG0s0MtdNwInarqCTz35i4wWXHsQ==}
+  '@emnapi/runtime@1.6.0':
+    resolution: {integrity: sha512-obtUmAHTMjll499P+D9A3axeJFlhdjOWdKUNs/U6QIGT7V5RjcUW1xToAzjvmgTSQhDbYn/NwfTRoJcQ2rNBxA==}
 
   '@emnapi/wasi-threads@1.1.0':
     resolution: {integrity: sha512-WI0DdZ8xFSbgMjR1sFsKABJ/C5OnRrjT06JXbZKexJGrDuPTzZdDYfFlsgcCXCyf+suG5QU2e/y1Wo2V/OapLQ==}
@@ -1513,8 +1513,8 @@ packages:
   '@types/node@20.19.22':
     resolution: {integrity: sha512-hRnu+5qggKDSyWHlnmThnUqg62l29Aj/6vcYgUaSFL9oc7DVjeWEQN3PRgdSc6F8d9QRMWkf36CLMch1Do/+RQ==}
 
-  '@types/node@24.8.1':
-    resolution: {integrity: sha512-alv65KGRadQVfVcG69MuB4IzdYVpRwMG/mq8KWOaoOdyY617P5ivaDiMCGOFDWD2sAn5Q0mR3mRtUOgm99hL9Q==}
+  '@types/node@24.9.1':
+    resolution: {integrity: sha512-QoiaXANRkSXK6p0Duvt56W208du4P9Uye9hWLWgGMDTEoKPhuenzNcC4vGUmrNkiOKTlIrBoyNQYNpSwfEZXSg==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1779,8 +1779,8 @@ packages:
     resolution: {integrity: sha512-WHw67kLXYbZuHTmcdbIrVArCq5wxo6NEuj3hiYAWr8mwJeC+C2mMCIBIWCiDoCye/OF/xelc+teJ1ERoWmnEIA==}
     engines: {node: '>=18'}
 
-  astro@5.14.6:
-    resolution: {integrity: sha512-MSdjKt2W2a56x868DqDWgbfw4D689/8EGhHG4465h7eivTI237u1aBx4iJvgI6WfgdUE61+coAvMjUkEvOWbpA==}
+  astro@5.14.7:
+    resolution: {integrity: sha512-vdZmRN2MFf60ZTjFkZNrQQkrmeeZzTI1c6N3ZRQN55rPGHjywM2VplJwJ68q496DfpaoDoAroDBpdm+eTgHUtQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3863,8 +3863,8 @@ packages:
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
-  undici-types@7.14.0:
-    resolution: {integrity: sha512-QQiYxHuyZ9gQUIrmPo3IA+hUl4KYk8uSA7cHrcKd/l3p1OTpZcM0Tbp9x7FAtXdAYhlasd60ncPpgu6ihG6TOA==}
+  undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
   undici@7.14.0:
     resolution: {integrity: sha512-Vqs8HTzjpQXZeXdpsfChQTlafcMQaaIwnGwLam1wudSSjlJeQ3bw1j+TLPePgrCnCpUXx7Ba5Pdpf5OBih62NQ==}
@@ -4263,14 +4263,14 @@ packages:
 
 snapshots:
 
-  '@astrojs/cloudflare@12.6.10(@types/node@24.8.1)(astro@5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(jiti@2.6.1)(yaml@2.8.1)':
+  '@astrojs/cloudflare@12.6.10(@types/node@24.9.1)(astro@5.14.7(@netlify/blobs@10.1.0)(@types/node@24.9.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(jiti@2.6.1)(yaml@2.8.1)':
     dependencies:
       '@astrojs/internal-helpers': 0.7.4
       '@astrojs/underscore-redirects': 1.0.0
       '@cloudflare/workers-types': 4.20251011.0
-      astro: 5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
+      astro: 5.14.7(@netlify/blobs@10.1.0)(@types/node@24.9.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
       tinyglobby: 0.2.15
-      vite: 6.4.1(@types/node@24.8.1)(jiti@2.6.1)(yaml@2.8.1)
+      vite: 6.4.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
       wrangler: 4.41.0(@cloudflare/workers-types@4.20251011.0)
     transitivePeerDependencies:
       - '@types/node'
@@ -4317,18 +4317,18 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/netlify@6.5.13(@types/node@24.8.1)(@vercel/functions@2.2.13)(astro@5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(jiti@2.6.1)(rollup@4.52.5)(yaml@2.8.1)':
+  '@astrojs/netlify@6.5.13(@types/node@24.9.1)(@vercel/functions@2.2.13)(astro@5.14.7(@netlify/blobs@10.1.0)(@types/node@24.9.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(jiti@2.6.1)(rollup@4.52.5)(yaml@2.8.1)':
     dependencies:
       '@astrojs/internal-helpers': 0.7.4
       '@astrojs/underscore-redirects': 1.0.0
       '@netlify/blobs': 10.1.0
       '@netlify/functions': 4.3.0(rollup@4.52.5)
-      '@netlify/vite-plugin': 2.7.3(@vercel/functions@2.2.13)(rollup@4.52.5)(vite@6.4.1(@types/node@24.8.1)(jiti@2.6.1)(yaml@2.8.1))
+      '@netlify/vite-plugin': 2.7.3(@vercel/functions@2.2.13)(rollup@4.52.5)(vite@6.4.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
       '@vercel/nft': 0.30.1(rollup@4.52.5)
-      astro: 5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
+      astro: 5.14.7(@netlify/blobs@10.1.0)(@types/node@24.9.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
       esbuild: 0.25.11
       tinyglobby: 0.2.15
-      vite: 6.4.1(@types/node@24.8.1)(jiti@2.6.1)(yaml@2.8.1)
+      vite: 6.4.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -4384,14 +4384,14 @@ snapshots:
 
   '@astrojs/underscore-redirects@1.0.0': {}
 
-  '@astrojs/vercel@8.2.10(astro@5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(rollup@4.52.5)':
+  '@astrojs/vercel@8.2.10(astro@5.14.7(@netlify/blobs@10.1.0)(@types/node@24.9.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(rollup@4.52.5)':
     dependencies:
       '@astrojs/internal-helpers': 0.7.4
       '@vercel/analytics': 1.5.0
       '@vercel/functions': 2.2.13
       '@vercel/nft': 0.30.1(rollup@4.52.5)
       '@vercel/routing-utils': 5.2.0
-      astro: 5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
+      astro: 5.14.7(@netlify/blobs@10.1.0)(@types/node@24.9.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
       esbuild: 0.25.11
       tinyglobby: 0.2.15
     transitivePeerDependencies:
@@ -4523,7 +4523,7 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@emnapi/runtime@1.5.0':
+  '@emnapi/runtime@1.6.0':
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -4917,12 +4917,12 @@ snapshots:
 
   '@img/sharp-wasm32@0.33.5':
     dependencies:
-      '@emnapi/runtime': 1.5.0
+      '@emnapi/runtime': 1.6.0
     optional: true
 
   '@img/sharp-wasm32@0.34.4':
     dependencies:
-      '@emnapi/runtime': 1.5.0
+      '@emnapi/runtime': 1.6.0
     optional: true
 
   '@img/sharp-win32-arm64@0.34.4':
@@ -4990,7 +4990,7 @@ snapshots:
   '@napi-rs/wasm-runtime@1.0.7':
     dependencies:
       '@emnapi/core': 1.5.0
-      '@emnapi/runtime': 1.5.0
+      '@emnapi/runtime': 1.6.0
       '@tybys/wasm-util': 0.10.1
     optional: true
 
@@ -5247,12 +5247,12 @@ snapshots:
 
   '@netlify/types@2.1.0': {}
 
-  '@netlify/vite-plugin@2.7.3(@vercel/functions@2.2.13)(rollup@4.52.5)(vite@6.4.1(@types/node@24.8.1)(jiti@2.6.1)(yaml@2.8.1))':
+  '@netlify/vite-plugin@2.7.3(@vercel/functions@2.2.13)(rollup@4.52.5)(vite@6.4.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))':
     dependencies:
       '@netlify/dev': 4.6.2(@vercel/functions@2.2.13)(rollup@4.52.5)
       '@netlify/dev-utils': 4.3.0
       dedent: 1.7.0
-      vite: 6.4.1(@types/node@24.8.1)(jiti@2.6.1)(yaml@2.8.1)
+      vite: 6.4.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -5625,9 +5625,9 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@types/node@24.8.1':
+  '@types/node@24.9.1':
     dependencies:
-      undici-types: 7.14.0
+      undici-types: 7.16.0
     optional: true
 
   '@types/normalize-package-data@2.4.4': {}
@@ -5940,7 +5940,7 @@ snapshots:
 
   ast-module-types@6.0.1: {}
 
-  astro@5.14.6(@netlify/blobs@10.1.0)(@types/node@20.19.22)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1):
+  astro@5.14.7(@netlify/blobs@10.1.0)(@types/node@20.19.22)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.4
@@ -6041,7 +6041,7 @@ snapshots:
       - uploadthing
       - yaml
 
-  astro@5.14.6(@netlify/blobs@10.1.0)(@types/node@24.8.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1):
+  astro@5.14.7(@netlify/blobs@10.1.0)(@types/node@24.9.1)(@vercel/functions@2.2.13)(jiti@2.6.1)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.4
@@ -6097,8 +6097,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.17.1(@netlify/blobs@10.1.0)(@vercel/functions@2.2.13)
       vfile: 6.0.3
-      vite: 6.4.1(@types/node@24.8.1)(jiti@2.6.1)(yaml@2.8.1)
-      vitefu: 1.1.1(vite@6.4.1(@types/node@20.19.22)(jiti@2.6.1)(yaml@2.8.1))
+      vite: 6.4.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
+      vitefu: 1.1.1(vite@6.4.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.3
@@ -8553,7 +8553,7 @@ snapshots:
 
   undici-types@6.21.0: {}
 
-  undici-types@7.14.0:
+  undici-types@7.16.0:
     optional: true
 
   undici@7.14.0: {}
@@ -8732,7 +8732,7 @@ snapshots:
       jiti: 2.6.1
       yaml: 2.8.1
 
-  vite@6.4.1(@types/node@24.8.1)(jiti@2.6.1)(yaml@2.8.1):
+  vite@6.4.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.11
       fdir: 6.5.0(picomatch@4.0.3)
@@ -8741,7 +8741,7 @@ snapshots:
       rollup: 4.52.5
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.8.1
+      '@types/node': 24.9.1
       fsevents: 2.3.3
       jiti: 2.6.1
       yaml: 2.8.1
@@ -8749,6 +8749,10 @@ snapshots:
   vitefu@1.1.1(vite@6.4.1(@types/node@20.19.22)(jiti@2.6.1)(yaml@2.8.1)):
     optionalDependencies:
       vite: 6.4.1(@types/node@20.19.22)(jiti@2.6.1)(yaml@2.8.1)
+
+  vitefu@1.1.1(vite@6.4.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)):
+    optionalDependencies:
+      vite: 6.4.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
 
   vitest@3.2.4(@types/debug@4.1.12)(@types/node@20.19.22)(jiti@2.6.1)(yaml@2.8.1):
     dependencies:
