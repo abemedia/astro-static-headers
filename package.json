@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.6",
-    "@types/node": "^20.3.0",
+    "@types/node": "^20.19.23",
     "astro": "^5.14.7",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.4",
