@@ -41,7 +41,7 @@
   "engines": {
     "node": "^20.3.0 || >=22.0.0"
   },
-  "packageManager": "pnpm@10.5.1",
+  "packageManager": "pnpm@10.17.1",
   "peerDependencies": {
     "astro": ">=5.0.0"
   },
@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.6",
-    "@types/node": "^22.18.0",
+    "@types/node": "^20.3.0",
     "astro": "^5.14.6",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.4",
