@@ -1,4 +1,4 @@
-import vercel from '@astrojs/vercel/static';
+import vercel from '@astrojs/vercel';
 import { defineConfig } from 'astro/config';
 import staticHeaders from 'astro-static-headers';
 
