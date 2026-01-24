@@ -20,7 +20,7 @@
   ],
   "scripts": {
     "prepare": "husky",
-    "build": "tsdown src/index.ts src/middleware.ts",
+    "build": "tsdown src/index.ts src/middleware.ts --no-fixed-extension",
     "prepack": "pnpm build",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -56,7 +56,7 @@
     "lint-staged": "^16.2.7",
     "prettier": "^3.7.4",
     "prettier-plugin-astro": "^0.14.1",
-    "tsdown": "^0.15.12",
+    "tsdown": "^0.18.4",
     "typescript": "^5.9.3",
     "vitest": "^4.0.16"
   },
