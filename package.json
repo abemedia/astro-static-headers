@@ -58,7 +58,7 @@
     "prettier-plugin-astro": "^0.14.1",
     "tsdown": "^0.18.4",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.16"
+    "vitest": "^4.0.18"
   },
   "lint-staged": {
     "*": "biome check --write --files-ignore-unknown=true --no-errors-on-unmatched",
