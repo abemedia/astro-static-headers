@@ -20,7 +20,7 @@
   ],
   "scripts": {
     "prepare": "husky",
-    "build": "tsdown src/index.ts src/middleware.ts",
+    "build": "tsdown src/index.ts src/middleware.ts --no-fixed-extension",
     "prepack": "pnpm build",
     "test": "vitest run",
     "test:watch": "vitest",
