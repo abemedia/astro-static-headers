@@ -1,7 +1,7 @@
 {
   "name": "astro-static-headers",
   "description": "Astro integration that captures headers and redirects during prerender and writes platform-specific config (Netlify, Cloudflare, Vercel).",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "author": "Adam Bouqdib <adam@abemedia.co.uk>",
   "license": "MIT",

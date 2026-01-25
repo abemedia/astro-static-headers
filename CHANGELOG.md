@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/abemedia/astro-static-headers/compare/v1.0.1...v1.0.2) (2026-01-25)
+
+
+### Miscellaneous Chores
+
+* release 1.0.2 ([#122](https://github.com/abemedia/astro-static-headers/issues/122)) ([cef4dea](https://github.com/abemedia/astro-static-headers/commit/cef4deaadbd0b50c8a4c51a44ac377e72a3a27df))
+
 ## [1.0.1](https://github.com/abemedia/astro-static-headers/compare/v1.0.0...v1.0.1) (2025-10-21)
 
 
