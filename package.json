@@ -46,7 +46,7 @@
     "astro": ">=5.0.0"
   },
   "dependencies": {
-    "@astrojs/underscore-redirects": "^1.0.0"
+    "@astrojs/underscore-redirects": "^1.0.2"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.4",
