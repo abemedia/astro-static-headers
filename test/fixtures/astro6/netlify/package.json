@@ -1,0 +1,14 @@
+{
+  "name": "test-netlify",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "astro build"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^7.0.6",
+    "astro": "^6.1.6",
+    "astro-static-headers": "file:../../../.."
+  }
+}

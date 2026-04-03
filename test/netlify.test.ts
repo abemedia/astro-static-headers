@@ -1,48 +1,49 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { expect } from 'vitest';
+import { describe, expect } from 'vitest';
 import { makeTest } from './utils';
 
-const test = makeTest('netlify');
+describe('v5', () => {
+  const test = makeTest('astro5/netlify');
 
-test.concurrent('generates config.json headers', async ({ dir }) => {
-  const vercelContent = await readFile(join(dir, '.netlify', 'v1', 'config.json'), 'utf-8');
-  expect(JSON.parse(vercelContent)).toEqual({
-    images: {
-      remote_images: [],
-    },
-    headers: [
-      {
-        for: '/_astro/*',
-        values: {
-          'Cache-Control': 'public, max-age=31536000, immutable',
-        },
+  test.concurrent('generates config.json headers', async ({ dir }) => {
+    const content = await readFile(join(dir, '.netlify', 'v1', 'config.json'), 'utf-8');
+    expect(JSON.parse(content)).toEqual({
+      images: {
+        remote_images: [],
       },
-      {
-        for: '/api',
-        values: {
-          'content-type': 'application/json',
+      headers: [
+        {
+          for: '/_astro/*',
+          values: {
+            'Cache-Control': 'public, max-age=31536000, immutable',
+          },
         },
-      },
-      {
-        for: '/new-page/',
-        values: {
-          'x-content-type-options': 'nosniff',
-          'x-frame-options': 'DENY',
+        {
+          for: '/api',
+          values: {
+            'content-type': 'application/json',
+          },
         },
-      },
-      {
-        for: '/',
-        values: {
-          'cache-control': 'public, max-age=3600',
+        {
+          for: '/new-page/',
+          values: {
+            'x-content-type-options': 'nosniff',
+            'x-frame-options': 'DENY',
+          },
         },
-      },
-    ],
+        {
+          for: '/',
+          values: {
+            'cache-control': 'public, max-age=3600',
+          },
+        },
+      ],
+    });
   });
-});
 
-test.concurrent('generates _redirects', async ({ dir }) => {
-  const expected = `
+  test.concurrent('generates _redirects', async ({ dir }) => {
+    const expected = `
 /temp-redirect    /somewhere/    302
 /old-page         /new-page/     301
 
@@ -50,6 +51,62 @@ test.concurrent('generates _redirects', async ({ dir }) => {
 /redirect-api     /api          302
 `;
 
-  const actual = await readFile(join(dir, 'dist', '_redirects'), 'utf-8');
-  expect(actual).toBe(expected);
+    const actual = await readFile(join(dir, 'dist', '_redirects'), 'utf-8');
+    expect(actual).toBe(expected);
+  });
+});
+
+describe('v6', () => {
+  const test = makeTest('astro6/netlify');
+
+  test.concurrent('generates config.json headers', async ({ dir }) => {
+    const content = await readFile(join(dir, '.netlify', 'v1', 'config.json'), 'utf-8');
+    expect(JSON.parse(content)).toEqual({
+      images: {
+        remote_images: [],
+      },
+      headers: [
+        {
+          for: '/_astro/*',
+          values: {
+            'Cache-Control': 'public, max-age=31536000, immutable',
+          },
+        },
+        {
+          for: '/api',
+          values: {
+            'content-type': 'application/json',
+          },
+        },
+        {
+          for: '/new-page/',
+          values: {
+            'x-content-type-options': 'nosniff',
+            'x-frame-options': 'DENY',
+          },
+        },
+        {
+          for: '/',
+          values: {
+            'cache-control': 'public, max-age=3600',
+          },
+        },
+      ],
+    });
+  });
+
+  test.concurrent('generates _redirects', async ({ dir }) => {
+    const expected = `
+/temp-redirect/    /somewhere/    302
+/temp-redirect     /somewhere/    302
+/old-page/         /new-page/     301
+/old-page          /new-page/     301
+
+/redirect-page    /new-page/    307
+/redirect-api     /api          302
+`;
+
+    const actual = await readFile(join(dir, 'dist', '_redirects'), 'utf-8');
+    expect(actual).toBe(expected);
+  });
 });

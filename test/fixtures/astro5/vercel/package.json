@@ -4,12 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "astro build",
-    "dev": "astro dev"
+    "build": "astro build"
   },
   "dependencies": {
-    "@astrojs/vercel": "^9.0.4",
+    "@astrojs/vercel": "^9.0.5",
     "astro": "^5.18.1",
-    "astro-static-headers": "workspace:*"
+    "astro-static-headers": "file:../../../.."
   }
 }
