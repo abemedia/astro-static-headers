@@ -46,12 +46,12 @@
     "astro": ">=5.0.0"
   },
   "dependencies": {
-    "@astrojs/underscore-redirects": "^1.0.2"
+    "@astrojs/underscore-redirects": "^1.0.3"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.12",
     "@types/node": "^20.19.39",
-    "astro": "^5.18.1",
+    "astro": "^6.1.6",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
     "prettier": "^3.8.3",
