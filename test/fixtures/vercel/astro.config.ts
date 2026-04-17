@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config';
 import staticHeaders from 'astro-static-headers';
 
 export default defineConfig({
-  adapter: vercel({}),
+  adapter: vercel(),
   integrations: [staticHeaders()],
   redirects: {
     '/old-page/': '/new-page/',

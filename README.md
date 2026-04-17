@@ -47,6 +47,12 @@ export default defineConfig({
 });
 ```
 
+> [!IMPORTANT]  
+> When using `@astrojs/cloudflare` v13+, you must set `prerenderEnvironment: 'node'` in the adapter
+> options (e.g. `cloudflare({ prerenderEnvironment: 'node' })`). The default `'workerd'` environment
+> runs prerendering in a separate runtime, which prevents the integration from capturing headers and
+> redirects.
+
 ## Usage
 
 `astro-static-headers` automatically detects headers and redirects for statically-generated routes

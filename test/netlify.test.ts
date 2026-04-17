@@ -43,8 +43,10 @@ test.concurrent('generates config.json headers', async ({ dir }) => {
 
 test.concurrent('generates _redirects', async ({ dir }) => {
   const expected = `
-/temp-redirect    /somewhere/    302
-/old-page         /new-page/     301
+/temp-redirect/    /somewhere/    302
+/temp-redirect     /somewhere/    302
+/old-page/         /new-page/     301
+/old-page          /new-page/     301
 
 /redirect-page    /new-page/    307
 /redirect-api     /api          302

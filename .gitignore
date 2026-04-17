@@ -4,4 +4,5 @@ dist/
 .astro
 .vercel
 .netlify
+.wrangler
 *.log
