@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/abemedia/astro-static-headers/compare/v1.0.2...v1.0.3) (2026-04-17)
+
+
+### Bug Fixes
+
+* support Astro v6 ([#169](https://github.com/abemedia/astro-static-headers/issues/169)) ([c477ffd](https://github.com/abemedia/astro-static-headers/commit/c477ffd8dcc7b5d51e4bf7c8843f784e359b23cd))
+
 ## [1.0.2](https://github.com/abemedia/astro-static-headers/compare/v1.0.1...v1.0.2) (2026-01-25)
 
 
