@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/abemedia/astro-static-headers/compare/v1.0.3...v1.0.4) (2026-06-07)
+
+
+### Bug Fixes
+
+* only register middleware during build to prevent dev server crash ([#178](https://github.com/abemedia/astro-static-headers/issues/178)) ([348c3e5](https://github.com/abemedia/astro-static-headers/commit/348c3e51a054c5b7e299fbef016802614e8df429))
+
 ## [1.0.3](https://github.com/abemedia/astro-static-headers/compare/v1.0.2...v1.0.3) (2026-04-17)
 
 
