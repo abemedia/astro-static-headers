@@ -11,8 +11,10 @@ export default function staticHeaders(): AstroIntegration {
   return {
     name: 'astro-static-headers',
     hooks: {
-      'astro:config:setup': ({ addMiddleware }) => {
-        addMiddleware({ entrypoint: new URL('middleware.js', import.meta.url), order: 'pre' });
+      'astro:config:setup': ({ command, addMiddleware }) => {
+        if (command === 'build') {
+          addMiddleware({ entrypoint: new URL('middleware.js', import.meta.url), order: 'pre' });
+        }
       },
       'astro:config:done': ({ config }) => {
         const adapterName = config.adapter?.name;
