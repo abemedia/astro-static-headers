@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@astrojs/vercel": "^10.0.4",
-    "astro": "^6.1.7",
+    "astro": "^6.1.10",
     "astro-static-headers": "workspace:*"
   }
 }
