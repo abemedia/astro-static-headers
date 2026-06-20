@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@astrojs/netlify": "^7.0.12",
-    "astro": "^6.4.4",
+    "astro": "^6.4.6",
     "astro-static-headers": "workspace:*"
   }
 }

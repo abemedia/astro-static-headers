@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@astrojs/cloudflare": "^13.6.1",
-    "astro": "^6.4.4",
+    "astro": "^6.4.6",
     "astro-static-headers": "workspace:*"
   }
 }
