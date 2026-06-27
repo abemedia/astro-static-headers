@@ -6,7 +6,10 @@ import { makeTest } from './utils';
 const test = makeTest('cloudflare');
 
 test.concurrent('generates _headers', async ({ dir }) => {
-  const expected = `
+  const expected = `\
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
 
 /api
   content-type: application/json
