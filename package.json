@@ -49,16 +49,16 @@
     "@astrojs/underscore-redirects": "^1.0.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.16",
-    "@types/node": "^20.19.42",
+    "@biomejs/biome": "^2.5.6",
+    "@types/node": "^20.19.43",
     "astro": "^7.0.3",
     "husky": "^9.1.7",
     "lint-staged": "^17.2.0",
-    "prettier": "^3.8.3",
+    "prettier": "^3.9.6",
     "prettier-plugin-astro": "^0.14.1",
-    "tsdown": "^0.22.2",
+    "tsdown": "^0.22.14",
     "typescript": "^6.0.3",
-    "vitest": "^4.1.8"
+    "vitest": "^4.1.10"
   },
   "lint-staged": {
     "*": "biome check --write --files-ignore-unknown=true --no-errors-on-unmatched",
