@@ -10,6 +10,7 @@
   "dependencies": {
     "@astrojs/cloudflare": "^14.0.1",
     "astro": "^7.0.3",
-    "astro-static-headers": "workspace:*"
+    "astro-static-headers": "workspace:*",
+    "wrangler": "^4.118.0"
   }
 }
