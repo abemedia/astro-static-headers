@@ -4,13 +4,6 @@
     "indentStyle": "space",
     "lineWidth": 100
   },
-  "linter": {
-    "rules": {
-      "suspicious": {
-        "noAssignInExpressions": "off"
-      }
-    }
-  },
   "javascript": {
     "formatter": {
       "quoteStyle": "single"
