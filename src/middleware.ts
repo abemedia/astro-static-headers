@@ -16,7 +16,8 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
   const store = globalThis.__astroStaticHeaders;
 
   // Track the route pattern for deduplicating redirects from the Astro config.
-  const routes = (store.routes[context.routePattern] ??= []);
+  store.routes[context.routePattern] ??= [];
+  const routes = store.routes[context.routePattern];
   if (route !== context.routePattern) {
     routes.push(route);
   }
@@ -34,13 +35,16 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
   }
 
   // Record headers
-  const headers = (store.headers[route] ??= new Headers());
+  const headers = new Headers();
   res.headers.forEach((value, key) => {
     if (key.startsWith('x-astro-') || (key === 'content-type' && value === 'text/html')) {
       return; // Skip internal headers and default HTML content-type.
     }
     headers.append(key, value);
   });
+  if (!headers.keys().next().done) {
+    store.headers[route] = headers;
+  }
 
   return res;
 };
