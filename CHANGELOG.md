@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/abemedia/astro-static-headers/compare/v1.0.4...v1.0.5) (2026-09-05)
+
+
+### Bug Fixes
+
+* only write entries for routes that have headers ([#197](https://github.com/abemedia/astro-static-headers/issues/197)) ([42289eb](https://github.com/abemedia/astro-static-headers/commit/42289ebfbaed1d128e06045090d863968c0fbffb))
+
 ## [1.0.4](https://github.com/abemedia/astro-static-headers/compare/v1.0.3...v1.0.4) (2026-06-07)
 
 
