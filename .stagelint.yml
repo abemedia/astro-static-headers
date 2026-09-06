@@ -1,0 +1,5 @@
+'*': biome check --write --error-on-warnings --no-errors-on-unmatched --files-ignore-unknown=true
+'*.{md,yml,yaml,astro}': prettier --write
+'*.ts':
+  command: pnpm tsc --noEmit
+  pass_filenames: false
