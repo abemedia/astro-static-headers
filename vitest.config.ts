@@ -4,5 +4,6 @@ export default defineConfig({
   test: {
     testTimeout: 60000, // Allow time for Astro builds
     pool: 'forks', // Separate processes for concurrent tests
+    globalSetup: './test/global-setup.ts',
   },
 });
