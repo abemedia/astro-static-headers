@@ -52,7 +52,7 @@
     "@biomejs/biome": "^2.5.14",
     "@stagelint/stagelint": "^0.2.1",
     "@types/node": "^20.19.43",
-    "astro": "^7.2.10",
+    "astro": "^7.3.5",
     "prettier": "^3.9.9",
     "prettier-plugin-astro": "^0.14.1",
     "tsdown": "^0.23.0",
