@@ -25,6 +25,13 @@ test.concurrent('vercel adapter generates vercel.json', async ({ dir }) => {
         status: 302,
       },
       {
+        src: '^/_astro(?:/(.*))$',
+        headers: {
+          'cache-control': 'public, max-age=31536000, immutable',
+        },
+        continue: true,
+      },
+      {
         src: '^/redirect-api$',
         headers: {
           Location: '/api',
@@ -59,13 +66,6 @@ test.concurrent('vercel adapter generates vercel.json', async ({ dir }) => {
       },
       {
         handle: 'filesystem',
-      },
-      {
-        src: '^/_astro/(.*)$',
-        headers: {
-          'cache-control': 'public, max-age=31536000, immutable',
-        },
-        continue: true,
       },
       {
         src: '^/_server-islands/([^/]+?)/?$',
