@@ -67,9 +67,7 @@ Use `Astro.response.headers.set()` in your pages to add custom headers:
 Astro.response.headers.set('Cache-Control', 'public, max-age=3600');
 ---
 
-<html>
-  <!-- Page here... -->
-</html>
+<html><!-- Page here... --></html>
 ```
 
 ### Setting Headers for Static Astro Endpoints
