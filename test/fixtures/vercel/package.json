@@ -7,7 +7,7 @@
     "build": "astro build",
     "dev": "astro dev"
   },
-  "dependencies": {
+  "devDependencies": {
     "@astrojs/vercel": "^11.0.11",
     "astro": "^7.3.5",
     "astro-static-headers": "workspace:*"
