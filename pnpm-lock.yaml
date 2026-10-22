@@ -41,7 +41,7 @@ importers:
         version: 4.1.11(@opentelemetry/api@1.9.1)(@types/node@20.19.43)(vite@8.2.2(@types/node@20.19.43)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
 
   test/fixtures/cloudflare:
-    dependencies:
+    devDependencies:
       '@astrojs/cloudflare':
         specifier: ^14.3.3
         version: 14.3.3(@types/node@20.19.43)(astro@7.3.5(@netlify/blobs@10.7.13(supports-color@10.2.2))(@types/node@20.19.43)(@vercel/functions@3.9.9(ws@8.21.0))(jiti@2.7.0)(yaml@2.9.0))(esbuild@0.28.2)(jiti@2.7.0)(wrangler@4.151.2(@types/node@20.19.43))(yaml@2.9.0)
@@ -56,7 +56,7 @@ importers:
         version: 4.151.2(@types/node@20.19.43)
 
   test/fixtures/netlify:
-    dependencies:
+    devDependencies:
       '@astrojs/netlify':
         specifier: ^8.2.6
         version: 8.2.6(@parcel/watcher@2.5.6)(@types/node@20.19.43)(@vercel/functions@3.9.9(ws@8.21.0))(astro@7.3.5(@netlify/blobs@10.7.13(supports-color@10.2.2))(@types/node@20.19.43)(@vercel/functions@3.9.9(ws@8.21.0))(jiti@2.7.0)(yaml@2.9.0))(jiti@2.7.0)(rollup@4.61.1)(supports-color@10.2.2)(yaml@2.9.0)
@@ -68,7 +68,7 @@ importers:
         version: link:../../..
 
   test/fixtures/vercel:
-    dependencies:
+    devDependencies:
       '@astrojs/vercel':
         specifier: ^11.0.11
         version: 11.0.11(astro@7.3.5(@netlify/blobs@10.7.13(supports-color@10.2.2))(@types/node@20.19.43)(@vercel/functions@3.9.9(ws@8.21.0))(jiti@2.7.0)(yaml@2.9.0))(rollup@4.61.1)(supports-color@10.2.2)(ws@8.21.0)

@@ -10,10 +10,6 @@ updates:
       - dependency-name: '@types/node'
         update-types: [version-update:semver-major]
     groups:
-      astro:
-        patterns:
-          - astro
-          - '@astrojs/*'
       dev-dependencies:
         dependency-type: development
         update-types:
@@ -25,3 +21,7 @@ updates:
     schedule:
       interval: monthly
     open-pull-requests-limit: 10
+    groups:
+      actions:
+        patterns:
+          - '*'

@@ -7,7 +7,7 @@
     "build": "astro build",
     "dev": "astro dev"
   },
-  "dependencies": {
+  "devDependencies": {
     "@astrojs/netlify": "^8.2.6",
     "astro": "^7.3.5",
     "astro-static-headers": "workspace:*"
