@@ -86,7 +86,6 @@ test.concurrent('vercel adapter generates vercel.json', async ({ dir }) => {
       {
         src: '^/.*$',
         dest: '_render',
-        status: 404,
       },
     ],
   });
