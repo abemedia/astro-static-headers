@@ -24,7 +24,7 @@
     "prepack": "pnpm build",
     "test": "vitest run",
     "test:watch": "vitest",
-    "format": "biome format --write . && prettier --write --cache \"**/*.{md,yml,yaml,astro}\"",
+    "format": "biome format --write .",
     "lint": "biome lint --write .",
     "check": "biome check . && tsc --noEmit"
   },
@@ -49,12 +49,10 @@
     "@astrojs/underscore-redirects": "^1.0.4"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.15",
+    "@biomejs/biome": "^2.6.2",
     "@stagelint/stagelint": "^0.2.1",
     "@types/node": "^20.19.43",
     "astro": "^7.4.1",
-    "prettier": "^3.9.10",
-    "prettier-plugin-astro": "^1.1.1",
     "tsdown": "^0.23.1",
     "typescript": "^7.0.2",
     "vitest": "^4.1.11"

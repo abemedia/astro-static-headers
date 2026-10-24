@@ -35,9 +35,6 @@ jobs:
       - name: Run Biome
         run: pnpm biome ci
 
-      - name: Run Prettier
-        run: pnpm prettier --check "**/*.{md,yml,yaml,astro}"
-
       - name: Build
         run: pnpm build
 

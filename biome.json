@@ -1,10 +1,30 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "files": {
+    "includes": ["**", "!pnpm-lock.yaml", "!CHANGELOG.md"]
+  },
   "formatter": {
     "indentStyle": "space",
     "lineWidth": 100
   },
+  "html": {
+    "experimentalFullSupportEnabled": true,
+    "formatter": {
+      "enabled": true,
+      "selfCloseVoidElements": "always"
+    }
+  },
   "javascript": {
+    "formatter": {
+      "quoteStyle": "single"
+    }
+  },
+  "markdown": {
+    "formatter": {
+      "proseWrap": "always"
+    }
+  },
+  "yaml": {
     "formatter": {
       "quoteStyle": "single"
     }
