@@ -11,6 +11,6 @@
     "@astrojs/cloudflare": "^14.4.1",
     "astro": "^7.4.1",
     "astro-static-headers": "workspace:*",
-    "wrangler": "^4.151.2"
+    "wrangler": "^4.151.3"
   }
 }
