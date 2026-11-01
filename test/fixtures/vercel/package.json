@@ -8,8 +8,8 @@
     "dev": "astro dev"
   },
   "devDependencies": {
-    "@astrojs/vercel": "^11.0.16",
-    "astro": "^7.4.2",
+    "@astrojs/vercel": "^11.0.17",
+    "astro": "^7.4.4",
     "astro-static-headers": "workspace:*"
   }
 }
