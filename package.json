@@ -49,11 +49,11 @@
     "@astrojs/underscore-redirects": "^1.0.4"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.6.4",
-    "@stagelint/stagelint": "^0.2.1",
+    "@biomejs/biome": "^2.6.6",
+    "@stagelint/stagelint": "^0.2.2",
     "@types/node": "^20.19.43",
-    "astro": "^7.4.4",
-    "tsdown": "^0.23.3",
+    "astro": "^7.4.7",
+    "tsdown": "^0.23.7",
     "typescript": "^7.0.2",
     "vitest": "^4.1.11"
   },
